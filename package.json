@@ -9,6 +9,16 @@
     "lint": "eslint lib test",
     "lint:fix": "eslint lib test --fix"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incubus8/hsm-pin-block.git"
+  },
+  "keywords": [
+    "pin",
+    "iso-9564"
+    "encrypt",
+    "hsm"
+  ],
   "author": "Rheza Satria",
   "license": "MIT",
   "dependencies": {

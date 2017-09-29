@@ -2,7 +2,7 @@
 
 ## HSM PIN Block
 
-HSM PIN Block module. Provide PCI Standard PIN Block for banking, compliance with ISO-9564-format-1.
+HSM PIN Block module. Provide PCI Standard PIN Block for banking, compliance with ISO-9564-format-0.
 
 
 ## Usages
