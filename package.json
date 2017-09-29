@@ -1,0 +1,26 @@
+{
+  "name": "hsm-pin-block",
+  "version": "1.0.0",
+  "description": "Generate ISO-9564 PCI Encryped PIN Block International Standard using NodeJS",
+  "main": "lib/pin_block.js",
+  "scripts": {
+    "test": "mocha ./test --recursive",
+    "test:coverage": "nyc mocha ./test --recursive"
+  },
+  "author": "Rheza Satria",
+  "license": "MIT",
+  "dependencies": {
+    "big-integer": "^1.6.25"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3",
+    "nyc": "^11.2.1"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "lines": 100,
+    "statements": 100,
+    "functions": 100,
+    "branches": 100
+  }
+}

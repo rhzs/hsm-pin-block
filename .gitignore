@@ -1,0 +1,6 @@
+node_modules/
+coverage/
+.DS_INFO
+.nyc_output
+
+.vscode
