@@ -1,5 +1,5 @@
 const assert = require('assert');
-const { encrypt, decrypt } = require('../lib/pin_block');
+const {encrypt, decrypt} = require('../lib/pin_block');
 
 describe('PIN Block ISO-9564-Format-1', () => {
   const PIN = '111111';

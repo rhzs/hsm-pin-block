@@ -5,7 +5,9 @@
   "main": "lib/pin_block.js",
   "scripts": {
     "test": "mocha ./test --recursive",
-    "test:coverage": "nyc mocha ./test --recursive"
+    "test:coverage": "nyc mocha ./test --recursive",
+    "lint": "eslint lib test",
+    "lint:fix": "eslint lib test --fix"
   },
   "author": "Rheza Satria",
   "license": "MIT",
@@ -13,6 +15,9 @@
     "big-integer": "^1.6.25"
   },
   "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-xo-space": "^0.16.0",
+    "eslint-plugin-security": "^1.4.0",
     "mocha": "^3.5.3",
     "nyc": "^11.2.1"
   },

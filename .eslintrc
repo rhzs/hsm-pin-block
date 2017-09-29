@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "security"
+  ],
+  "extends": [
+    "plugin:security/recommended",
+    "xo-space/esnext"
+  ],
+  "rules": {
+    no-var: 0,
+    new-cap: 0
+  },
+  "globals": {
+    it: false,
+    describe: false
+  }
+}
