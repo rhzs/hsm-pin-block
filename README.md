@@ -7,9 +7,17 @@ HSM PIN Block module. Provide PCI Standard PIN Block for banking, compliance wit
 
 ## Usages
 
-### Generate PIN Block
+```javascript
+const HsmPb = require('hsm-pin-block');
 
-//TODO
+const zpk = 'YOUR_ZPK';
+const pin = '123456';
+const pan = '1234-5678-1234-5678'
+
+// To generate pin block
+const atmPinBlock = HsmPb.encrypt(zpk, pin, pan);
+console.log(atmPinBlock);
+```
 
 
 ## License
