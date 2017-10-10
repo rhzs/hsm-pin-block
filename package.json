@@ -1,6 +1,6 @@
 {
   "name": "hsm-pin-block",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate ISO-9564 PCI Encryped PIN Block International Standard using NodeJS",
   "main": "lib/pin_block.js",
   "scripts": {
