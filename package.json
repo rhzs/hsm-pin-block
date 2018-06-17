@@ -9,6 +9,9 @@
     "lint": "eslint lib test",
     "lint:fix": "eslint lib test --fix"
   },
+  "engines" : {
+    "node" : ">=8.11.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/incubus8/hsm-pin-block.git"
@@ -22,14 +25,14 @@
   "author": "Rheza Satria",
   "license": "MIT",
   "dependencies": {
-    "big-integer": "^1.6.25"
+    "big-integer": "^1.6.31"
   },
   "devDependencies": {
-    "eslint": "^4.7.2",
-    "eslint-config-xo-space": "^0.16.0",
+    "eslint": "^4.19.1",
+    "eslint-config-xo-space": "^0.18.0",
     "eslint-plugin-security": "^1.4.0",
-    "mocha": "^3.5.3",
-    "nyc": "^11.2.1"
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2"
   },
   "nyc": {
     "check-coverage": true,
