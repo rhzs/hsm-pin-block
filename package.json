@@ -25,7 +25,8 @@
     "iso-9564",
     "ISO 9564",
     "encrypt",
-    "hsm"
+    "hsm",
+    "decrypt"
   ],
   "author": "Rheza Satria",
   "license": "MIT",
