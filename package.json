@@ -1,6 +1,6 @@
 {
   "name": "hsm-pin-block",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate ISO-9564 PCI Encryped PIN Block International Standard using NodeJS",
   "main": "lib/pin_block.js",
   "scripts": {
@@ -16,22 +16,27 @@
     "type": "git",
     "url": "git+https://github.com/incubus8/hsm-pin-block.git"
   },
+  "bugs": {
+    "url": "https://github.com/rhzs/hsm-pin-block/issues"
+  },
   "keywords": [
     "pin",
+    "pin block",
     "iso-9564",
+    "ISO 9564",
     "encrypt",
     "hsm"
   ],
   "author": "Rheza Satria",
   "license": "MIT",
   "dependencies": {
-    "big-integer": "^1.6.31"
+    "big-integer": "^1.6.48"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-xo-space": "^0.18.0",
+    "eslint": "^6.8.0",
+    "eslint-config-xo-space": "^0.24.0",
     "eslint-plugin-security": "^1.4.0",
-    "mocha": "^5.2.0",
+    "mocha": "^7.1.0",
     "nyc": "^15.0.0"
   },
   "nyc": {
